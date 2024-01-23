@@ -21,25 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pyxis.lifeisgoodforlearner.com/login')
 
-WebUI.setText(findTestObject('Page_Login/input_email'), 'ankit@qable.io')
+WebUI.setText(findTestObject('Object Repository/logout/input_email'), 'ankit@qable.io')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_password'), 'GTlPq8sqzIAVcUdIXgqPeg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/logout/input_password'), 'GTlPq8sqzIAVcUdIXgqPeg==')
 
-WebUI.click(findTestObject('Object Repository/span_Login'))
+WebUI.click(findTestObject('Object Repository/logout/button_Login'))
 
-WebUI.takeElementScreenshotAsCheckpoint('createButton', findTestObject('button_Create Sequence'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/logout/button_Create Sequence'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/button_Create Sequence'))
+WebUI.click(findTestObject('Object Repository/logout/div_AP'))
 
-WebUI.click(findTestObject('Object Repository/div_AP'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/logout/div_Log Out'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/div_Log Out'))
+WebUI.click(findTestObject('Object Repository/logout/div_Log Out'))
 
-WebUI.click(findTestObject('Object Repository/div_Log Out'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/span_Welcome Back to Saleshandy'))
-
-WebUI.takeScreenshotAsCheckpoint('loginText')
-
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Object Repository/logout/span_Welcome Back to Saleshandy'))
 
