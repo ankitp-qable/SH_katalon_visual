@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementClickable(findTestObject('button_Create Sequence'), 5)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/logout/button_Create Sequence'))
 
 WebUI.click(findTestObject('Object Repository/logout/div_AP'))

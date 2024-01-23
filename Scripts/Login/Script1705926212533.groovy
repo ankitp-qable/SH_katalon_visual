@@ -21,5 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pyxis.lifeisgoodforlearner.com/login')
 
-WebUI.takeScreenshotAsCheckpoint('Wellcomepage')
+WebUI.sendKeys(findTestObject('Page_Login/input_email'), 'ankit@qable.io')
+
+WebUI.sendKeys(findTestObject('Page_Login/input_password'), 'QAble@2020')
+
+WebUI.click(findTestObject('Page_Login/span_Login'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Login/svg'))
 
