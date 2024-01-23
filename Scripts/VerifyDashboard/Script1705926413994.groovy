@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://pyxis.lifeisgoodforlearner.com/login')
-
-WebUI.setText(findTestObject('Object Repository/logout/input_email'), 'ankit@qable.io')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/logout/input_password'), 'GTlPq8sqzIAVcUdIXgqPeg==')
-
-WebUI.click(findTestObject('Object Repository/logout/button_Login'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/logout/button_Create Sequence'))
 

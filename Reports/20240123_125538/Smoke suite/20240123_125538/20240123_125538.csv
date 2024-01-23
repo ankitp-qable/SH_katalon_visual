@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke suite,MacOS - Chrome 119.0.0.0,,,23-01-2024 12:55:52,23-01-2024 12:57:06,1m - 13.709s,PASSED
+,,,,,,,
+Test Cases/Login,MacOS - Chrome 119.0.0.0,,,23-01-2024 12:55:53,23-01-2024 12:57:06,1m - 13.290s,PASSED
+"openBrowser("""")",MacOS - Chrome 119.0.0.0,,,23-01-2024 12:55:54,23-01-2024 12:56:48,54.475s,PASSED
+"navigateToUrl(""https://pyxis.lifeisgoodforlearner.com/login"")",MacOS - Chrome 119.0.0.0,,,23-01-2024 12:56:48,23-01-2024 12:57:00,11.432s,PASSED
+"takeScreenshotAsCheckpoint(""Wellcomepage"")",MacOS - Chrome 119.0.0.0,,,23-01-2024 12:57:00,23-01-2024 12:57:06,6.541s,PASSED
