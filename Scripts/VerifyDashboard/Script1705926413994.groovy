@@ -27,7 +27,11 @@ WebUI.click(findTestObject('Object Repository/logout/div_AP'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/logout/div_Log Out'))
 
+WebUI.takeScreenshotAsCheckpoint('logout')
+
 WebUI.click(findTestObject('Object Repository/logout/div_Log Out'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/logout/span_Welcome Back to Saleshandy'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('hopageFull')
 
