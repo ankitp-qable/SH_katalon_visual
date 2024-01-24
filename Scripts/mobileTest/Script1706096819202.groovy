@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/qabletestlab/Downloads/ApiDemos.apk', true)
+Mobile.startApplication('androidapp/APIDemos.apk', true)
 
 Mobile.closeApplication()
 
-Mobile.startApplication('/Users/qabletestlab/Downloads/ApiDemos.apk', true)
+Mobile.startApplication('androidapp/APIDemos.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK'), 0)
 
