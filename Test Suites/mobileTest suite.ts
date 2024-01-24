@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Smoke suite</name>
+   <name>mobileTest suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>ankit@qable.io;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>1b54df88-137e-41ff-91be-167403239d31</testSuiteGuid>
+   <testSuiteGuid>476c0b16-0a06-4bdf-8867-6726b14b83e5</testSuiteGuid>
    <testCaseLink>
-      <guid>ad2eed17-54af-45d3-8fc5-337c015e664b</guid>
+      <guid>d982d8f1-14a3-4bd9-9ddc-7dee711d0d2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>70a13577-88ef-4230-b6d3-802bd9208e01</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/VerifyDashboard</testCaseId>
+      <testCaseId>Test Cases/mobileTest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

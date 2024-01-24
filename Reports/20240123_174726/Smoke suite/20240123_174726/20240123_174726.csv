@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke suite,Windows - Chrome 119.0.0.0,,,23-01-2024 17:47:35,23-01-2024 17:51:36,4m - 0.763s,PASSED
+,,,,,,,
+Test Cases/Login,Windows - Chrome 119.0.0.0,,,23-01-2024 17:47:35,23-01-2024 17:49:19,1m - 43.903s,PASSED
+"openBrowser("""")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:47:35,23-01-2024 17:48:06,30.472s,PASSED
+"navigateToUrl(""https://pyxis.lifeisgoodforlearner.com/login"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:06,23-01-2024 17:48:11,4.599s,PASSED
+"takeScreenshotAsCheckpoint(""homepage"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:11,23-01-2024 17:48:22,11.428s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_email""), ""ankit@qable.io"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:22,23-01-2024 17:48:26,3.936s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_password""), ""QAble@2020"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:26,23-01-2024 17:48:29,3.354s,PASSED
+"click(findTestObject(""Page_Login/span_Login""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:29,23-01-2024 17:48:32,2.925s,PASSED
+"takeScreenshotAsCheckpoint(""dashboard"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:32,23-01-2024 17:48:42,10.227s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Login/svg""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:48:42,23-01-2024 17:49:19,36.558s,PASSED
+,,,,,,,
+Test Cases/VerifyDashboard,Windows - Chrome 119.0.0.0,,,23-01-2024 17:49:19,23-01-2024 17:51:36,2m - 16.504s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Windows - Chrome 119.0.0.0,,,23-01-2024 17:49:19,23-01-2024 17:50:57,1m - 38.027s,PASSED
+"waitForElementClickable(findTestObject(""button_Create Sequence""), 5)",Windows - Chrome 119.0.0.0,,,23-01-2024 17:50:57,23-01-2024 17:51:01,3.748s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/logout/button_Create Sequence""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:01,23-01-2024 17:51:05,4.116s,PASSED
+"click(findTestObject(""Object Repository/logout/div_AP""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:05,23-01-2024 17:51:09,3.415s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/logout/div_Log Out""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:09,23-01-2024 17:51:13,4.088s,PASSED
+"takeScreenshotAsCheckpoint(""logout"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:13,23-01-2024 17:51:17,4.819s,PASSED
+"click(findTestObject(""Object Repository/logout/div_Log Out""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:17,23-01-2024 17:51:21,3.612s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/logout/span_Welcome Back to Saleshandy""))",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:21,23-01-2024 17:51:26,4.579s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""hopageFull"")",Windows - Chrome 119.0.0.0,,,23-01-2024 17:51:26,23-01-2024 17:51:36,9.922s,PASSED
